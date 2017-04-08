@@ -1,0 +1,39 @@
+Design Plan
+1) Print question on screen "Are you going to class?"
+2) Acknowledge "yes" / "no" button response
+3) Send response to 'friends' in same class
+	- only if press "no"
+	- *phone is responsible for initiating sending this information, not a network
+4) Set up easy scheduling/time-based trigger to push this question to user
+5) Set up geofencing to monitor GPS location
+	- have you left "Home", have you arrived at "Class"?
+6) Combine time-trigget and geofencing: Ping friends if you haven't left for class by a certain time
+
+7) Build in functionality for friends to call (via app) user who is SLEEPING THOUGH CLASS
+	- Rohit's "call dave" function
+	- #include messenger functionality 
+
+MISC:
+Useful APIs:
+UMD.io
+google maps 
+bitcamp api
+Groupme, facebook messenger
+sync with elms api/ canvas api/ google calendar for CLASS SCHEDULE
+
+Notes:
+If phone is off / app uninstalled, will not ping friends
+	- (because user's phone is responsible for pinging friends)
+	- alt: data saved on a server (ping friends if location DOES NOT check in to fence)
+Google maps api to moniter location instead of geofencing
+	- more detailed information on user location
+	- (ex: are you en route halfway to class?)
+
+Needs Met:
+Accountability for going to class
+Note-sharing interface
+	-(know your classmate isn't present and will need the notes)
+	- built-in messenger for absent student to ask friends to take notes for them
+
+Risks:
+Security risk -- GPS location from phone
