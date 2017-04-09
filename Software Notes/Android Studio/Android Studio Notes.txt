@@ -1,4 +1,7 @@
-ANDROID STUDIO TIPS
+Helpful link:
+https://developer.android.com/training/basics/firstapp/index.html 
+
+Shortcuts & Tips:
 find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code and pressing Alt+F7 (Edit | Find | Find Usages in the popup menu).
 Ctrl+Space to autofill code
 To quickly see the documentation for a class or method at caret, press Ctrl+Q (View | Quick Documentation).

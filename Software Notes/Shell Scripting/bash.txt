@@ -1,0 +1,6 @@
+Windows 10 linux shell download
+
+exit // whatever you were it
+bash // will open bash
+sudo // please (will give admin access before a cmd)
+ls -a // show all

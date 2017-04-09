@@ -1,0 +1,88 @@
+https://github.com/mjkaufer/bitcamp-chrome-extension 
+
+open console from chrome webpage with "ctrl" "shift" "i"
+	// opens on the right side of the page
+	// write in Console tab
+we are writing in javascript!!!! you use javascript to change html code, which changes websites
+we write text file with .json extension
+	.json: "java script object notation"
+	.js "java script"
+"console" is a global object, like print in python
+	Becuase it is global, you dont have to include any library to use it
+	is technically part of the Window object, but browser assumes you're trying to use it
+have Build folder & Source folder
+	(good coding practice to keep compiled stuff away from stuff you're writing in build) 
+	Build directly on website Console to make sure things work
+	Source is your .json file, put your working code here
+	refresh extensions page whenever you make changes
+if you have it published as a chrome extension, you rebundle it
+	Then either uninstall & reinstall extension
+	or refresh it
+
+Code Structure Notes:
+ID: just one (ie profile picture)
+Class: multiple (ie facebook posts)
+Content Scripts: scripts that run on a certain webpage (ie github starts wont run on google)
+	"*//*.github.com/*/*" or something would apply script to all github pages!
+	Can tell script which pages to run on
+	json file (like a pythion dictionary)
+	Have subdomains in the front
+sibling mode: a cool property in js
+	array[i].nextElementSibling
+	function as a parameter, btns is an array:
+
+Syntax:
+//declaring a variable (after the . syntax may not be correct)
+var btns = document.getElementsByClassName('social-count-js-social-count')
+
+bnts.length //btns is an array
+btns[i] // for desired idx i
+	there is a button class
+	there are lots of buttons on the webpage! (a button anything you can click on)
+	so if you want that a button to trigger something in your extension
+		first you have to find where in array your button is
+		ie adding stars when you click bithub's "star" button
+
+indices.push // push is how you add things to arrays in javascript
+
+document.body // will return all html text of a webpage
+document.body.innerHTML = "HI!" // sets all text inside <body> </body> to HI!
+
+p {  
+transform: rotate(180deg) //will rotate text 180 degrees
+} // can scale text, make it bigger, rotate, flip it upside down,
+
+
+// calling a function and that function's text
+btns.forEach(function(){})	
+indices.forEach(function(currentIndex){
+	console.log(btns[currentIndex].nextElementSibling.textContent)
+} // will log the element aka print it to the console
+
+// javascript is all in camelcase except one exceptio: //check exactly where...
+starElement.onclick = function(event) {
+ 	//text here
+}
+
+console.log("prints this text to the console on the webpage, like std.out in c")
+
+document.background.color // or something... to change colors
+
+// frames
+after definint a variable you can call all of the atrubutes you cal call on it
+	look thorugh by using varuable. (the ".")
+
+
+json can go into javascript (can call json objects into javascript :) )
+but javascript doenst go into json 
+
+put images into source folder and then call it in code. If you put your thing in chrome 
+store for tother peope to see, you do Pack extnesion. and then you upload entire homedirectory with image and all your code in to chrome servers
+
+use hashing to store values
+var myobj {
+	"tag1": "first in tag", "second in tag", "third part", //note comma in between hash values (like is an array)
+	"js": ["addStars.js"],
+	"web_resources":["picName.png" // something like this...
+}
+
