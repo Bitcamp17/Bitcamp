@@ -1,0 +1,34 @@
+Design Plan:
+1) Calendar to plan out days (api google calendar)
+2) Set up geofencing to monitor different GPS locations
+	time spent in class
+	time spent in library
+	time spent in gym
+3) Keep record of where times spent (timestamp entering - timestamp leaving fence)
+4) Competition between friends
+	ie I spent avg of 30 minutes at the gym on the 3 days this week I went
+	pie chart presentation
+
+5) "Poke" friends like on facebook if you are at the gym, going to the library, etc
+7) Include messenger fucntionality 
+
+MISC:
+Useful APIs:
+UMD.io
+google maps 
+bitcamp api
+Groupme, facebook messenger
+sync with elms api/ canvas api/ google calendar for CLASS SCHEDULE
+
+Notes:
+Data saved on user's phone
+	history can be viewed offline
+	takes up more memory
+alt: Google maps api to moniter location instead of geofencing
+	- more detailed information on user location
+	- Ex: how much walking do you do?
+
+Needs Met:
+Awareness about where you are spending (or wasting) your time.
+Accountability for going to class, gym, library. (esp if friends view your days)
+

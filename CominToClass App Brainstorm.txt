@@ -1,6 +1,8 @@
 Design Plan
 1) Print question on screen "Are you going to class?"
 2) Acknowledge "yes" / "no" button response
+	2a) Keep calendar of when you were in class & when you were not
+	2b) Folder to upload class notes
 3) Send response to 'friends' in same class
 	- only if press "no"
 	- *phone is responsible for initiating sending this information, not a network
