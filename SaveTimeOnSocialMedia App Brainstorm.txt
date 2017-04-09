@@ -1,0 +1,9 @@
+Chrome extension for every time you open facebook, twitter, instagram, or other social media,
+pop up "to do" list box on bottom left of your screen.
+// to reduce procrastination
+
+Also in mobile app, 5 minutes in after opening facebook app, insta app, etc sends a notification
+	which pops up on top of screen for most phones "HEY STOP WASTING TIME"
+	// option to pause app for 15 minutes, an hour, a day, 3 days
+
+API canvas or ELMS to import assignments (in case user does not often make "to do" lists themselves)
