@@ -1,0 +1,8 @@
+A Complete Tutorial to Learn Data Science with Python from Scratch: 
+https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/
+
+Ultimate guide for Data Exploration in Python using NumPy, Matplotlib and Pandas:
+https://www.analyticsvidhya.com/blog/2015/04/comprehensive-guide-data-exploration-sas-using-python-numpy-scipy-matplotlib-pandas/
+ 
+ 
+Podcast suggestions: "Talk Python to Me" for discussion on various Python-related topics.
